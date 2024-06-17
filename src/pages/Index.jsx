@@ -32,7 +32,7 @@ const Index = () => {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          <Button onClick={addTodo} colorScheme="purple">Add</Button>
+          <Button onClick={addTodo} colorScheme="orange">Add</Button>
         </HStack>
         <VStack spacing={2} width="100%">
           {todos.map((todo, index) => (
